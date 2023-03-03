@@ -64,3 +64,8 @@ function chessBoard(rows, columns) {
   }
   return result;
 }
+
+// endsWith
+const solution = (str, ending) => str.endsWith(ending);
+const otherSolution = (str, ending) => str.slice(str.length - ending.length) === ending;
+
